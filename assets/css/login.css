@@ -1,0 +1,76 @@
+
+
+/*login-form*/
+body
+{
+overflow-x:hidden;
+}
+.card {
+margin-top:80px;
+padding:10px 20px;
+  transition: 0.3s;
+border-radius:4px;
+background-color:#ffffff;
+  width: 100%;
+}
+.medium
+{
+max-width:750px;
+width:100%;
+position:fixed;
+}
+.card h3
+{
+font-weight:700;font-family: 'Josefin Sans', sans-serif;
+}
+.card p
+{
+text-align:center;
+}
+.small
+{
+max-width:200px;
+width:100%;
+}
+
+#inputel {
+    background-color: #f4f4f4;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px;
+    width: 100%;
+    text-overflow: ellipsis;
+font-family: 'Josefin Sans', sans-serif;
+}
+.controling {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 40px;
+    outline: none;
+
+}
+.buttonsign {
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+background-color:#009966;
+    margin: 10px 4px;
+    cursor: pointer;
+font-family: 'Josefin Sans', sans-serif;
+}
+@media only screen and (max-width: 600px) {
+.card {
+margin-top:20px;
+border:none !important;
+}
+}
+
+

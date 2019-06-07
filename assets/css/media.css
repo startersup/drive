@@ -1,0 +1,62 @@
+@media only screen and (max-width: 430px) 
+{
+.small {
+    max-width: 140px;
+    width: 100%;
+    margin-top: -20px;
+}
+.navbar-primary-menu li a {
+  display: block;
+  padding: 13px 12px;
+font-size:12px;
+  text-align: left;
+text-decoration:none !important;
+font-weight:600;
+  color: #ffffff;
+}
+.nav-label
+{
+	display:none;
+}
+.navbar-primary {
+    background-color: #071e33;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    top: 50px;
+    max-height: 100vh;
+    overflow-y: scroll;
+    font-family: 'Muli', sans-serif;
+    padding-top: 10px;
+    border: none !important;
+    width: 50px;
+    z-index: 8;
+    overflow: hidden;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+.main-content {
+    margin-top: 60px;
+    margin-left: 50px;
+    padding: 20px;
+}
+.navbar-primary.collapsed {
+  width: 50px;
+}
+.collapsed + .main-content {
+    margin-left: 50px !important	;
+}
+
+}
+
+
+
+@media only screen and (max-width: 768px) 
+{
+.small {
+    max-width: 140px;
+    width: 100%;
+    margin-top: -20px;
+}
+}
