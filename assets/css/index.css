@@ -60,6 +60,7 @@ font-size:18px;
 {
 max-width:140px;
 width:100%;
+ margin-left:10px;
 margin-top:-20px;
 }
 .navbar-primary {
@@ -181,7 +182,8 @@ font-size:20px;
 {
 font-weight:600;
 text-align:center;
-font-size:16px;
+font-size:18px;
+    letter-spacing:0.5px;
 font-family: 'Source Sans Pro', sans-serif;
 }
 .dark 
